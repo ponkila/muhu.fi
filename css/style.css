@@ -1,0 +1,153 @@
+body {
+  margin: auto;
+  font-family: 'PT Serif', serif;
+  max-width: 960px;
+  font-size: 1.3em;
+  padding: 1rem;
+  background-image: url("../images/sl-fs8.png");
+  color: #423a2f;
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  background-color: whitesmoke; }
+
+section {
+  background-color: white;
+  padding: .5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1; }
+
+a {
+  color: #eb9950; }
+
+svg text {
+  font-family: "Open Sans"; }
+
+nav {
+  background-color: #e67e22;
+  border: 1px solid #d67118;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }
+  nav ul {
+    padding: 1rem;
+    margin: 0; }
+    nav ul :not(:first-child) {
+      padding-left: 1rem; }
+  nav li {
+    display: inline-block; }
+    nav li a {
+      font-family: 'Open Sans';
+      font-weight: 600;
+      color: #fbe9d9;
+      text-decoration: none; }
+
+header {
+  margin-bottom: .5rem; }
+  header a:hover {
+    opacity: 1; }
+  header img {
+    border: 1px solid #d67118;
+    background-color: #e67e22;
+    padding: 2rem;
+    max-width: 8rem;
+    max-height: 9rem;
+    border-radius: 2px; }
+
+footer {
+  background-color: #e67e22;
+  margin: auto;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #f0b37e;
+  border: 1px solid #d67118;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px; }
+
+h1, h2, h3, h4, strong {
+  font-family: 'Open Sans';
+  color: #24201a;
+  word-wrap: break-word; }
+
+table {
+  font-size: 80%;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 1.5rem; }
+  table th {
+    padding: .2rem;
+    text-align: left; }
+  table td {
+    padding: .2rem; }
+  table tr:nth-child(odd) {
+    background-color: whitesmoke; }
+
+.readonly {
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+  color: grey; }
+
+a:hover {
+  opacity: .7; }
+
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 90%;
+    background-image: none;
+    padding: 0; }
+
+  table {
+    position: relative;
+    left: -2rem;
+    font-size: .7rem;
+    margin-bottom: 0; }
+
+  header {
+    background-color: #e67e22;
+    margin-bottom: 0; }
+    header img {
+      border-radius: 0;
+      border: 0;
+      margin: auto;
+      display: block; }
+
+  nav {
+    border-radius: 0; }
+    nav ul {
+      padding-left: 2rem; }
+      nav ul :not(:first-child) {
+        padding-left: 0; }
+      nav ul li {
+        display: list-item; }
+
+  footer {
+    border-radius: 0; } }
+@media only screen and (max-width: 550px) {
+  table {
+    position: relative;
+    font-size: .7rem;
+    left: -2rem;
+    margin-bottom: 0; } }
+@media only screen and (max-width: 650px) {
+  a.email {
+    visibility: hidden; }
+
+  table {
+    font-size: .7rem; } }
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 100%; }
+
+  table {
+    font-size: .8rem; }
+
+  a.email {
+    visibility: hidden; } }
+@media only screen and (max-width: 1100px) {
+  body {
+    font-size: 120%;
+    background-size: 100% 298px; } }
